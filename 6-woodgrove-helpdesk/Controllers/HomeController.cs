@@ -141,10 +141,11 @@ namespace WoodgroveHelpdesk.Controllers
                     validation = new Validation() {
                         allowRevoked = allowRevoked,
                         validateLinkedDomain = validateLinkedDomain,
-                        faceCheck = new FaceCheck() {
+/*                        faceCheck = new FaceCheck() {
                             sourcePhotoClaimName = _configuration.GetValue( "VerifiedID:sourcePhotoClaimName", "photo" ),
                             matchConfidenceThreshold = _configuration.GetValue( "VerifiedID:matchConfidenceThreshold", 70 )
                         }
+*/
                     }
                 }
             } );
