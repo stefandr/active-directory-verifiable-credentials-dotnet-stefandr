@@ -153,7 +153,7 @@ namespace WoodgroveHelpdesk.Controllers
         public bool IsFaceCheckRequested( WoodgroveHelpdesk.Models.PresentationRequest request ) {
             foreach( var rc in request.requestedCredentials ) {
                 if ( rc.configuration.validation.faceCheck != null ) {
-                    return true;
+                    return false;
                 }
             }
             return false;
