@@ -15,7 +15,7 @@
       "metadata": {
         "description": "Github repo URL"
       },
-      "defaultValue": "https://github.com/Azure-Samples/active-directory-verifiable-credentials-dotnet.git"
+      "defaultValue": "https://github.com/stefandr/active-directory-verifiable-credentials-dotnet-stefandr.git"
     },
     "branch": {
       "type": "string",

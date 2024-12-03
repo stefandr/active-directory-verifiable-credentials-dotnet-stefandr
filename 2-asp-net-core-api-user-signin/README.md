@@ -127,7 +127,7 @@ Register an application in Azure Active Directory:
 To run the sample, clone the repository, compile & run it. Its callback endpoint must be publically reachable, and for that reason, use a tool like `ngrok` as a reverse proxy to reach your app.
 
 ```Powershell
-git clone https://github.com/Azure-Samples/active-directory-verifiable-credentials-dotnet.git
+git clone https://github.com/stefandr/active-directory-verifiable-credentials-dotnet-stefandr.git
 cd active-directory-verifiable-credentials-dotnet/2-asp-net-core-api-user-signin
 ```
 

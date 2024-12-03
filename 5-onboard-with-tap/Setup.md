@@ -138,7 +138,7 @@ If you have set up Verified ID the manual way, you already have an Azure Key Vau
 ### Cloning the sample
 
 ```Powershell
-git clone https://github.com/Azure-Samples/active-directory-verifiable-credentials-dotnet.git
+git clone https://github.com/stefandr/active-directory-verifiable-credentials-dotnet-stefandr.git
 cd active-directory-verifiable-credentials-dotnet/5-onboard-with-tap
 ```
 
